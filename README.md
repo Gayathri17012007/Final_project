@@ -140,10 +140,10 @@ The LED's ON/OFF indication depends on whether the configured LED is active-low 
 - UART-based monitoring and runtime user input are not implemented.
 - Write-once protection, wear management, and data recovery are not included.
 - The LED status is meaningful only when success and failure paths are configured to produce different outputs.
-## Verified Output:
+## 7. Verified Output:
 <img width="1915" height="1020" alt="Screenshot 2026-10-13 085343" src="https://github.com/user-attachments/assets/1c8ee64b-2957-4ea7-9442-f86a1010cc18" />
 
-## 7. Conclusion
+## 8. Conclusion
 
 This project demonstrates EEPROM block erase emulation and read-back verification using the NXP S32K144 microcontroller and M24C04 EEPROM. The application divides the 512-byte memory into 64 logical blocks of 8 bytes each. It writes `0xFF` to a selected block and verifies the stored values by reading them back.
 
